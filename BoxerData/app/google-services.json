@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1081932293917",
+    "firebase_url": "https://boxerdata-4cf53.firebaseio.com",
+    "project_id": "boxerdata-4cf53",
+    "storage_bucket": "boxerdata-4cf53.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1081932293917:android:01a7fa23419aa971",
+        "android_client_info": {
+          "package_name": "com.example.shubham.boxerdata"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1081932293917-an6d2im7va7hpbc62stpgoiaqbgro8bo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shubham.boxerdata",
+            "certificate_hash": "3371bfba43e651cc98dc4873144c41b4620c5c34"
+          }
+        },
+        {
+          "client_id": "1081932293917-8tl41s3d50uf83b7c29eel9nud92lcco.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4oYxB0ZlLqNCFecJZOFOTGE46MADlrZ0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1081932293917-8tl41s3d50uf83b7c29eel9nud92lcco.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
