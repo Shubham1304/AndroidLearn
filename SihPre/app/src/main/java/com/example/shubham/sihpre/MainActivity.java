@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
     public void showGreetings(View view)
     {
         String button_text;
-        button_text = ((Button)view).getText.toString();
+        button_text = ((Button)view).getText().toString();
         if(button_text.equals("PwD"))
         {
             Intent intent =new Intent(this,SecondActivity.class);
