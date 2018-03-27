@@ -5,8 +5,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-import static android.R.attr.x;
-
 public class Calculator extends Activity implements View.OnClickListener{
     private enum OPERATOR{
         PLUS, SUBTRACT, MULTIPLY, DIVIDE, EQUAL
@@ -151,7 +149,7 @@ public class Calculator extends Activity implements View.OnClickListener{
 
 
     }
-    private void clearTapped()_{
+    private void clearTapped(){
         stringNumberAtLeft="";
         stringNumberAtRight="";
         calculationsResult=0;
