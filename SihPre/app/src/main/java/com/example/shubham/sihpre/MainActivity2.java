@@ -17,10 +17,29 @@ public class MainActivity2 extends Activity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
+        Button btnPwd = (Button) findViewById(R.id.btnPwd);
+        Button btnSigntoText=(Button)findViewById(R.id.btnSigntoText);
+
+        //findViewById(R.id.btnNext).setOnClickListener(MainActivity.this);
+
+        btnPwd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent1 = new Intent(MainActivity2.this, SecondActivity.class);
+                startActivity(intent1);
+            }
+        });
+        btnSigntoText.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent2 = new Intent(MainActivity2.this, ThirdActivity.class);
+                startActivity(intent2);
+            }
+        });
 
     }
 
-    public void showGreetings(View view)
+    /*public void showGreetings(View view)
     {
         String button_text;
         button_text = ((Button)view).getText().toString();
@@ -34,7 +53,7 @@ public class MainActivity2 extends Activity {
             Intent intent = new Intent (this,ThirdActivity.class);
             startActivity(intent);
         }
-    }
+    }*/
 
 }
 

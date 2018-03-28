@@ -7,10 +7,10 @@
         android:id="@+id/btnPwd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="128dp"
+        android:text="Pwd"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="179dp"
-        android:text="Pwd" />
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:id="@+id/btnNonPwd"
@@ -20,4 +20,13 @@
         android:layout_below="@+id/btnPwd"
         android:layout_marginTop="76dp"
         android:text="NonPwd" />
+
+    <Button
+        android:id="@+id/btnSigntoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign to Text"
+        android:layout_below="@+id/btnNonPwd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="77dp" />
 </RelativeLayout>

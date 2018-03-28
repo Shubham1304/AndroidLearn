@@ -17,7 +17,8 @@ import android.widget.Toast;
 
 import java.io.File;
 import java.io.FileOutputStream;
-import java.io.OutputStream;ublic class MainActivity extends AppCompatActivity {
+import java.io.OutputStream;
+public class SecondActivity extends AppCompatActivity {
     Button cButton, cSavaBtn;
     ImageView ivCamera;
     @Override
