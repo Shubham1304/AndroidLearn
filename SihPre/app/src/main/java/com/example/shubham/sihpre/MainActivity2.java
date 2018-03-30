@@ -19,6 +19,7 @@ public class MainActivity2 extends Activity {
         setContentView(R.layout.activity_main2);
         Button btnPwd = (Button) findViewById(R.id.btnPwd);
         Button btnSigntoText=(Button)findViewById(R.id.btnSigntoText);
+        Button btnTexttoSign=(Button)findViewById(R.id.btnTexttoSign);
 
         //findViewById(R.id.btnNext).setOnClickListener(MainActivity.this);
 
@@ -36,6 +37,14 @@ public class MainActivity2 extends Activity {
                 startActivity(intent2);
             }
         });
+        btnTexttoSign.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent3 = new Intent(MainActivity2.this, FourthActivity.class);
+                startActivity(intent3);
+            }
+        });
+
 
     }
 
